@@ -45,6 +45,7 @@ Thumbs.db
 
 *.scssc
 *.sass-cache/
+.sass-cache
 
 
 # Guard #
