@@ -1,4 +1,4 @@
 markdown: rdiscount
 pygments: false
-permalink: /:title
-destination: ./_publish
+permalink: /:short_month/:title
+exclude: ['*.sublime-*', 'Guardfile', 'sass']
