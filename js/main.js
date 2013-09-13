@@ -1,1 +1,1 @@
-$('h1 a').lettering();
+$('.header-title a').lettering();

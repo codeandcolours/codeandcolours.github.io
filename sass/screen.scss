@@ -4,9 +4,10 @@
 
 html,
 body {
-	height: 100%;
+	// height: 100%;
 	overflow-x: hidden;
 	background: white;
+	min-width: 320px;
 }
 
 .container {
@@ -24,4 +25,10 @@ a {
 	text-decoration: none;
 }
 
+
+.top-link {
+	display: none;
+}
+
 @import "syntax";
+@import "media-queries";

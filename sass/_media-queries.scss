@@ -1,0 +1,63 @@
+// Phone styles
+
+@media only screen
+and (max-width : 480px) {
+	body {
+		padding-top: 40px;
+
+		&:after {
+			content: "";
+			display: block;
+			background: lighten(black, 22%);
+			position: absolute;
+			width: 40px;
+			height: 40px;
+			right: 0;
+			top: 0;
+			z-index: 9;
+		}
+	}
+
+	header {
+		background: lighten(black, 22%);
+		border-bottom: 2px solid lighten(black, 11%);
+		height: 40px;
+		line-height: 40px;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+
+	}
+
+	.header-title {
+		color: darken(white, 8%);
+		font-size: 20px;
+		text-shadow: 1px 1px 0 black;
+		min-width: 320px;
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	.top-link {
+		color: darken(white, 8%);
+		font-size: 30px;
+		line-height: 30px;
+		height: 30px;
+		display: block;
+		position: absolute;
+		top: 5px;
+		right: 5px;
+
+
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		// letter-spacing: 0;
+	}
+} // 480px mobile

@@ -1,5 +1,5 @@
 body {
-	color: #333;
+	// color: #444; Set in normalize
 	font-size: 110%;
 	font-family: "quatro-slab-1", "quatro-slab-2", Georgia, serif;
 	font-weight: 400;
@@ -31,21 +31,21 @@ a {
 	@include single-transition(all, .2s, ease-out);
 }
 
-h1 {
+h1,
+h2 {
+	span {
+		@include single-transition(all, .2s, ease-out);
+	}
 
 	a:hover,
 	a:focus,
 	a:active {
 		.char10 { color: #cc3500; transition-delay: 0.00s; }
-		.char11 { color: #e4be25; transition-delay: 0.05s; }
-		.char12 { color: #00cc65; transition-delay: 0.10s; }
-		.char13 { color: #00cacc; transition-delay: 0.15s; }
-		.char14 { color: #0065cc; transition-delay: 0.20s; }
-		.char15 { color: #7904c3; transition-delay: 0.25s; }
-		.char16 { color: #b600cc; transition-delay: 0.30s; }
-	}
-
-	span {
-		@include single-transition(all, .2s, ease-out);
+		.char11 { color: #e4be25; transition-delay: 0.04s; }
+		.char12 { color: #00cc65; transition-delay: 0.08s; }
+		.char13 { color: #00cacc; transition-delay: 0.12s; }
+		.char14 { color: #0065cc; transition-delay: 0.16s; }
+		.char15 { color: #7904c3; transition-delay: 0.20s; }
+		.char16 { color: #b600cc; transition-delay: 0.24s; }
 	}
 }
