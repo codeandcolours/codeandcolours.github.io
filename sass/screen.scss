@@ -1,29 +1,27 @@
 @import "compass/css3",
-				"normalize";
-
-@font-face {
-	font-family: 'Roboto Condensed';
-	font-style: normal;
-	font-weight: 700;
-	src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url(http://themes.googleusercontent.com/static/fonts/robotocondensed/v7/b9QBgL0iMZfDSpmcXcE8nCSLrGe-fkSRw2DeVgOoWcQ.woff) format('woff');
-}
+				"normalize",
+				"typography";
 
 html,
 body {
 	height: 100%;
-	overflow: hidden;
-}
-
-body {
-	background: #f7f7f7;
-	font-family: 'Roboto Condensed', sans-serif;
+	overflow-x: hidden;
+	background: white;
 }
 
 .container {
-	width: 70%;
+	width: 50%;
+	min-width: 320px;
 	margin: 0 auto;
 }
 
 h1 {
 	font-size: 60px;
 }
+
+a {
+	color: #c00;
+	text-decoration: none;
+}
+
+@import "syntax";

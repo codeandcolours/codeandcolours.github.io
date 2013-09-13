@@ -1,4 +1,6 @@
 markdown: rdiscount
 pygments: false
-permalink: /:short_month/:title
-exclude: ['*.sublime-*', 'Guardfile', 'sass']
+permalink: /post/:title
+exclude: ['*.sublime-*', 'Guardfile', 'sass', 'import']
+
+title: 'Code and Colours'
