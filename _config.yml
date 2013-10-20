@@ -1,6 +1,6 @@
 markdown: rdiscount
 pygments: false
-permalink: /post/:title
+permalink: /writes/:title
 exclude: ['*.sublime-*', 'Guardfile', 'sass', 'import']
 
 title: 'Code and Colours'
